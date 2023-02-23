@@ -10,7 +10,9 @@ module.exports = {
       // adelia: ["ADELIA", "cursive"],
     },
     screens: {
-      'mb':{'min':'350px','max':'639px'},
+      // 'sm-mb':{'min':'280px','max':'349'},
+
+      'mb':{'min':'300px','max':'639px'},
 
 
       'sm': {'min': '640px', 'max': '767px'},
@@ -19,7 +21,10 @@ module.exports = {
       'md': {'min': '768px', 'max': '1023px'},
       // => @media (min-width: 768px and max-width: 1023px) { ... }
       'lg-small': {'min': '1024px', 'max': '1100px'},
-
+      
+      // 'lg-tab':{'min': '900px', 'max': '1100px'},
+      'lg-tab': {'raw': '(min-height: 600px) and (min-width: 1023px) and (max-width: 1100px)'},
+      
       'lg': {'min': '1100px', 'max': '1279px'},
       // => @media (min-width: 1024px and max-width: 1279px) { ... }
       'lg-2': {'min': '1280px', 'max': '1379px'},
@@ -27,7 +32,14 @@ module.exports = {
       'xl': {'min': '1380px', 'max': '1535px'},
       // => @media (min-width: 1280px and max-width: 1535px) { ... }
 
-      '2xl': {'min': '1536px'},
+      '2xl': {'min': '1536px','max':'1559px'},
+
+      'desktop-20': {'min': '1600px','max':'1679px'},
+      
+      'desktop-22': {'min': '1680px','max':'1919px'},
+
+      'desktop-23': {'min': '1920px'},
+
     },
     fontSize:{
       //styleName: Base;

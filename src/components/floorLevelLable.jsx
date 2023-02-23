@@ -61,10 +61,10 @@ const FloorLevelLable = ({setfloorClicked}) => {
 
   return (
     <>
-        <div className='text-floorText flex flex-row items-center justify-center mb:justify-center sm:justify-start'>
-                         <div className='flex flex-row items-center justify-center  space-x-5 '>
+        <div className='text-floorText flex flex-row items-center justify-center  sm:justify-center mb:justify-center'>
+                         <div className='flex flex-row items-center justify-center  space-x-5 mb:space-x-0'>
                             <h1 className='sm:hidden mb:hidden'>Floors</h1>
-                            <div className='flex flex-row  space-x-5'>
+                            <div className='flex flex-row  space-x-5 mb:space-x-3'>
                                 <span className='bg-circle  w-12 h-12 align-middle text-center rounded-full cursor-pointer  flex items-center justify-center hover:border hover:border-secondary' onClick={()=>{floorHandler('Lower Ground')}}>LG</span>
                                 <span className='bg-circle  w-12 h-12 align-middle text-center rounded-full cursor-pointer  flex items-center justify-center hover:border hover:border-secondary' onClick={()=>{floorHandler('Ground Floor')}}>G</span>
                                 <span className='bg-circle  w-12 h-12 align-middle text-center rounded-full cursor-pointer  flex items-center justify-center hover:border hover:border-secondary' onClick={()=>{floorHandler('Mezzanine')}}>M</span>
