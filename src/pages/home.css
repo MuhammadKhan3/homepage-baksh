@@ -1,0 +1,27 @@
+.container{
+    background-image:url('../images/home.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 100vh;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+@media only screen and (min-device-width: 381px) and (max-device-width: 767px) {
+
+    .container{
+      background-position: 50% 50%;
+    }
+}
+
+area {
+    background-color: red;
+}
+
+  
+img[usemap], map area{
+    outline: none;
+}
