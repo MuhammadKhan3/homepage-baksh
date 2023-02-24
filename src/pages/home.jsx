@@ -50,9 +50,9 @@ const Home = (  {floor,setFloor,floorClicked,setfloorClicked}) => {
 if(floorClicked.length===0){
   return (
     <>
-      {/* <div 
+      <div 
       className='container w-screen overflow-hidden'
-      > */}
+      >
 
       <MobileMenu menu={menu} setmenu={setmenu}/>
       {/* backdrop-brightness-50 */}
@@ -179,7 +179,7 @@ if(floorClicked.length===0){
                         </div>
             </div>
             {/* sm:overflow-hidden mb:overflow-hidden */}
-
+            
             {/* <div className='relative  w-[50vw] md:w-[55.5vw] left-[22.5vw]  sm:[100vw]  md:left-[35%] lg-small:left-[28.5%] lg-tab: sm:left-[20%]    xl:left-[25%]  mb:left-[1%]  mb:w-[76vw] desktop-20:top-[0vh]  desktop-23:top-[6vh] desktop-23-h:top-[5vh] desktop-22:top-[5vh] desktop-22:left-[25%]  desktop-23:left-[25%] desktop-23-h:left-[26.5%]       h-full '>                
                   <div className='flex flex-row items-center w-full h-full relative top-[30px] lg:top-[57px] mb:top-[3.7vh]   xl:top-[70px] lg-tab:top-0' onClick={()=>{floorHandler("2");}}>
                     <div className={` text-white cursor-pointer flex flex-row  align-middle  h-[65px] lg-tab:h-[3rem] mb:h-[3rem] w-[31vw] sm:w-[100vw] md:w-[36.7vw] mb:w-[80vw] lg-small:w-[42vw] xl:w-[33.5vw] desktop-22:w-[33.5vw] desktop-23-h:w-[31vw] desktop-23:w-[67%]  visible     ${floor==='2nd' ? 'bg-blue-50 opacity-[0.3]':'bg-blue-600'}`} onMouseEnter={()=>{console.log('hi..');setFloor('2nd') }} ></div>
@@ -238,7 +238,7 @@ if(floorClicked.length===0){
             {/* </div> */}
   
           </div>
-       {/* </div> */}
+       </div>
 
     </>)
 
