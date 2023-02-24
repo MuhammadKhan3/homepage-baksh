@@ -59,7 +59,7 @@ if(floorClicked.length===0){
       {!menu &&
 
         <div className='text-primary relative top-10 flex flex-row items-center w-full justify-between px-10 mb:px-1 sm:px-2'>
-           <div className='flex flex-row justify-center items-center space-x-5 '>
+           {/* <div className='flex flex-row justify-center items-center space-x-5 '>
               <div className='h-[51.09px] w-[180.9px] rounded-3xl border-[1px] border-primary cursor-pointer flex flex-row   items-center justify-center hover:bg-primary hover:text-white sm:hidden mb:hidden'>
                   Sign In
               </div>
@@ -72,7 +72,7 @@ if(floorClicked.length===0){
                  &nbsp;
                  <span className='text-white'>(051)-111 789 111</span>
               </div>
-           </div>
+           </div> */}
            <div  className=' flex flex-row  mb:h-[20%]  mb:w-[4%] md:h-[20%] md:w-[2.8%] sm:h-[20%] sm:w-[2.8%] h-[10%] w-[1.7%] '>
                 <img src={vectorOne}/>
                 <img src={vectorTwo}    className=""/>
@@ -81,16 +81,20 @@ if(floorClicked.length===0){
                 <img src={vectorFive}   className=""/>
            </div>
            <div className='flex flex-row items-center '>
-              <div className='text-smallBold mr-10 hidden lg:block xl:block 2xl:block'>
+              <div className='text-smallBold mr-10 mb:hidden sm:hidden'>
                  <span className='text-[#FFFFFF66] '>
-                  UAN 
                  </span>
                  &nbsp;
-                 <span className='text-white'>(051)-111 789 111</span>
+                 <span className='text-white'>099278213712</span>
               </div>
-              <div className='h-[51.09px] w-[180.9px] rounded-3xl border-[1px]  cursor-pointer flex flex-row   items-center border-primary justify-center bg-primary text-white sm:hidden mb:hidden'>
-                  Sign In
-              </div>
+              {/* <div className='h-[51.09px] w-[180.9px] rounded-3xl border-[1px]  cursor-pointer flex flex-row   items-center border-primary justify-center bg-primary text-white sm:hidden mb:hidden'>
+                 Main Website
+              </div> */}
+              <a href='https://bakshint.com/'>
+                <div className='h-[51.09px] w-[180.9px] rounded-3xl border-[1px]  cursor-pointer flex flex-row   items-center border-white justify-center  text-white sm:hidden mb:hidden'>
+                  Main Website
+                </div>
+              </a>
               <label  htmlFor="my-modal">
                 <div  className='h-[51.09px] w-[120.9px] rounded-3xl border-[1px] text-center  border-primary cursor-pointer  hover:bg-primary hover:text-white flex-row justify-center items-center hidden sm:flex  mb:flex '>
                     Appartments
