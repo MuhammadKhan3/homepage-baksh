@@ -20,10 +20,12 @@ module.exports = {
 
       'md': {'min': '768px', 'max': '1023px'},
       // => @media (min-width: 768px and max-width: 1023px) { ... }
-      'lg-small': {'min': '1024px', 'max': '1059'},
+      'lg-small': {'min': '1024px', 'max': '1059px'},
       
       // 'lg-tab':{'min': '900px', 'max': '1100px'},
       'lg-tab': {'raw': '(min-height: 600px) and (min-width: 1024px) and (max-width: 1059px)'},
+      
+      'lg-pc': {'raw': '(min-height: 800px) and (min-width: 1024px) and (max-width: 1059px)'},
       
       'lg': {'min': '1100px', 'max': '1279px'},
       // => @media (min-width: 1024px and max-width: 1279px) { ... }
