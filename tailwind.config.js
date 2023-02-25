@@ -14,7 +14,14 @@ module.exports = {
       
       'mb':{'min':'300px','max':'639px'},
       
+      'apple-more': {'raw': '(min-height: 844px)  and (min-width: 390px) and (max-width: 414px)'},
+
       'apple-7': {'raw': '(min-height: 736px) and (min-width: 414px) and (max-width: 600px)'},
+
+      'galaxy-8': {'raw': '(min-height: 740px)  and (min-width: 360px) and (max-width: 389px)'},
+
+      'galaxy-20': {'raw': '(min-height: 915px)  and (min-width: 412px) and (max-width: 500px)'},
+
 
       'google-pix': {'raw': '(min-height: 731px) and (min-width: 411px) '},
       
