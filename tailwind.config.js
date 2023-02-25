@@ -11,14 +11,19 @@ module.exports = {
     },
     screens: {
       // 'sm-mb':{'min':'280px','max':'349'},
-
+      
       'mb':{'min':'300px','max':'639px'},
+      
+      'apple-7': {'raw': '(min-height: 736px) and (min-width: 414px) and (max-width: 600px)'},
 
-
+      'google-pix': {'raw': '(min-height: 731px) and (min-width: 411px) '},
+      
       'sm': {'min': '640px', 'max': '767px'},
       // => @media (min-width: 640px and max-width: 767px) { ... }
 
       'md': {'min': '768px', 'max': '1023px'},
+      
+
       // => @media (min-width: 768px and max-width: 1023px) { ... }
       'lg-small': {'min': '1024px', 'max': '1059px'},
       
