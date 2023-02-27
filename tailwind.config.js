@@ -33,6 +33,8 @@ module.exports = {
 
       'galaxy-20': {'raw': '(min-height: 915px)  and (min-width: 412px) and (max-width: 500px)'},
 
+      'iphones': {'raw': '(min-height: 740px)  and (min-width: 412px)'},
+
 
       'google-pix': {'raw': '(min-height: 731px) and (min-width: 411px) '},
       
