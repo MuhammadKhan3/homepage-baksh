@@ -16,7 +16,16 @@ module.exports = {
       
       'apple-more': {'raw': '(min-height: 844px)  and (min-width: 390px) and (max-width: 414px)'},
 
+      
       'apple-3': {'raw': '(min-height:480px)  and (min-width: 320px) '},
+      
+      'apple-5': {'raw': '(min-height:568px)  and (min-width: 320px) '},
+
+      'apple-6':{'raw': '(min-height:667px)  and (min-width: 375px) '},
+
+      'apple6-plus':{'raw': '(min-height:736px)  and (min-width: 414px) '},
+
+      'apple-s7':{'raw': '(min-height:640px)  and (min-width: 360px) '},
 
       'apple-7': {'raw': '(min-height: 736px) and (min-width: 414px) and (max-width: 600px)'},
 
