@@ -215,32 +215,32 @@ if(floorClicked.length===0){
                       }
                     </div>
             
-                   <div className='flex flex-row items-center w-full h-full relative top-[48px] lg-pc:top-[7vh] lg-tab:top-[4vh] lg-[4vh] lg:top-[68px] xl:top-[95px] desktop-20:top-[9vh] desktop-22:top-[9vh] desktop-23:top-[6.5vh] desktop-23-h:top-[8vh] mb:top-[5vh] apple-7:top-[13vh] google-pix:top-[13vh] apple-more:top-[15vh] galaxy-8:top-[12vh] galaxy-20:!top-[16vh] apple-3:top-0 apple-6:top-[10vh] apple-s7:top-[8vh] apple-5:top-[6vh]'  onClick={()=>{floorHandler("Ground Floor")}}>
-                      <div className={`mb:invisible text-white cursor-pointer flex flex-row  align-middle  h-[65px] desktop-23-h:h-[5rem] desktop-23:h-[6rem]   lg-pc:w-[41.5vw] lg-tab:w-[31.5vw] w-[31vw] lg-tab:h-[3rem] sm:w-[100vw] md:w-[36.7vw] mb:w-[80vw] xl:w-[33.5vw] desktop-22:w-[33.5vw] desktop-23-h:w-[31vw] mb:h-[3rem] desktop-23:w-[67%]   visible    ${floor==='Ground Floor' ? 'bg-blue-50 opacity-[0.3]':''}`} onMouseEnter={()=>{setFloor('Ground Floor') }} ></div>
+                   <div className='flex flex-row items-center w-full h-full relative top-[48px] lg-pc:top-[7vh] lg-tab:top-[4vh] lg-[4vh] lg:top-[68px] xl:top-[95px] desktop-20:top-[9vh] desktop-22:top-[9vh] desktop-23:top-[6.5vh] desktop-23-h:top-[8vh] mb:top-[5vh] apple-7:top-[13vh] google-pix:top-[13vh] apple-more:top-[15vh] galaxy-8:top-[12vh] galaxy-20:!top-[16vh] apple-3:top-0 apple-6:top-[10vh] apple-s7:top-[8vh] apple-5:top-[6vh]'  onClick={()=>{floorHandler("Mezzanine")}}>
+                      <div className={`mb:invisible text-white cursor-pointer flex flex-row  align-middle  h-[65px] desktop-23-h:h-[5rem] desktop-23:h-[6rem]   lg-pc:w-[41.5vw] lg-tab:w-[31.5vw] w-[31vw] lg-tab:h-[3rem] sm:w-[100vw] md:w-[36.7vw] mb:w-[80vw] xl:w-[33.5vw] desktop-22:w-[33.5vw] desktop-23-h:w-[31vw] mb:h-[3rem] desktop-23:w-[67%]   visible    ${floor==='Mezzanine' ? 'bg-blue-50 opacity-[0.3]':''}`} onMouseEnter={()=>{setFloor('Mezzanine') }} ></div>
                       
                       <div className='hidden mb:flex sm:flex    flex-row  items-center justify-end'>
                         <span className='text-white border-b-[2px] ml-[3%] border-white w-[30px]  '></span>
-                        <span className='text-white  ml-[3%]'>GroundFloor</span>
+                        <span className='text-white  ml-[3%]'>Mezzanine</span>
                       </div>
                       
-                      {floor==='Ground Floor' &&
+                      {floor==='Mezzanine' &&
                       <>
                         <span className='text-white border-[1px] border-white w-[7%] ml-[3%] mb:hidden'></span>
-                        <span className='text-white  ml-[3%] mb:hidden'>Ground Floor</span>
+                        <span className='text-white  ml-[3%] mb:hidden'>Mezzanine</span>
                       </>
                       }
                    </div>
 
-                  <div className='flex flex-row items-center w-full h-full relative top-[48px] lg-pc:top-[10vh]  lg-tab:top-[7vh] lg:top-[70px] xl:top-[110px] desktop-20:top-[10vh] desktop-22:top-[12vh] desktop-23:top-[7.5vh] desktop-23-h:top-[10vh] apple-7:top-[16vh] google-pix:top-[16vh] apple-more:top-[18vh] galaxy-8:top-[16vh] galaxy-20:!top-[20vh] apple-3:top-0 apple-6:top-[12vh] apple6-plus:top-[15vh] apple-s7:top-[12vh] apple-5:top-[10vh]' onClick={()=>{floorHandler("mazen")}}>
-                    <div className={`mb:invisible text-white cursor-pointer  flex-row  align-middle  h-[65px] w-[31vw] desktop-23-h:h-[5rem] desktop-23:h-[6rem] lg-pc:w-[41.5vw] lg-tab:w-[31.5vw] lg-tab:h-[3rem] sm:w-[100vw] md:w-[36.7vw] mb:w-[80vw] xl:w-[33.5vw] desktop-20:w-[31vw] desktop-23-h:w-[31vw] mb:h-[3rem] desktop-22:w-[33.5vw] desktop-23:w-[67%]   visible    ${floor==='mazen' ? 'bg-blue-50 opacity-[0.3]':''}`} onMouseEnter={()=>{setFloor('mazen') }} ></div>                    
+                  <div className='flex flex-row items-center w-full h-full relative top-[48px] lg-pc:top-[10vh]  lg-tab:top-[7vh] lg:top-[70px] xl:top-[110px] desktop-20:top-[10vh] desktop-22:top-[12vh] desktop-23:top-[7.5vh] desktop-23-h:top-[10vh] apple-7:top-[16vh] google-pix:top-[16vh] apple-more:top-[18vh] galaxy-8:top-[16vh] galaxy-20:!top-[20vh] apple-3:top-0 apple-6:top-[12vh] apple6-plus:top-[15vh] apple-s7:top-[12vh] apple-5:top-[10vh]' onClick={()=>{floorHandler("Ground Floor")}}>
+                    <div className={`mb:invisible text-white cursor-pointer  flex-row  align-middle  h-[65px] w-[31vw] desktop-23-h:h-[5rem] desktop-23:h-[6rem] lg-pc:w-[41.5vw] lg-tab:w-[31.5vw] lg-tab:h-[3rem] sm:w-[100vw] md:w-[36.7vw] mb:w-[80vw] xl:w-[33.5vw] desktop-20:w-[31vw] desktop-23-h:w-[31vw] mb:h-[3rem] desktop-22:w-[33.5vw] desktop-23:w-[67%]   visible    ${floor==='Ground Floor' ? 'bg-blue-50 opacity-[0.3]':''}`} onMouseEnter={()=>{setFloor('Ground Floor') }} ></div>                    
                     <div className='hidden mb:flex sm:flex   flex-row  items-center justify-end'>
                       <span className='text-white border-b-[2px] ml-[3%] border-white w-[30px]  '></span>
-                      <span className='text-white  ml-[3%]'> Mezzanine</span>
+                      <span className='text-white  ml-[3%]'> </span>
                     </div>
-                    {floor==='mazen' &&
+                    {floor==='Ground Floor' &&
                     <>
                       <span className='text-white border-[1px] border-white w-[7%] ml-[3%] mb:hidden'></span>
-                      <span className='text-white ml-[3%] mb:hidden'>mazen</span>
+                      <span className='text-white ml-[3%] mb:hidden'>Ground Floor</span>
                     </>
                     }
                   </div>
