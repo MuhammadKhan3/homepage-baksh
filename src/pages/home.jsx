@@ -235,7 +235,7 @@ if(floorClicked.length===0){
                     <div className={`mb:invisible text-white cursor-pointer  flex-row  align-middle  h-[65px] w-[31vw] desktop-23-h:h-[5rem] desktop-23:h-[6rem] lg-pc:w-[41.5vw] lg-tab:w-[31.5vw] lg-tab:h-[3rem] sm:w-[100vw] md:w-[36.7vw] mb:w-[80vw] xl:w-[33.5vw] desktop-20:w-[31vw] desktop-23-h:w-[31vw] mb:h-[3rem] desktop-22:w-[33.5vw] desktop-23:w-[67%]   visible    ${floor==='Ground Floor' ? 'bg-blue-50 opacity-[0.3]':''}`} onMouseEnter={()=>{setFloor('Ground Floor') }} ></div>                    
                     <div className='hidden mb:flex sm:flex   flex-row  items-center justify-end'>
                       <span className='text-white border-b-[2px] ml-[3%] border-white w-[30px]  '></span>
-                      <span className='text-white  ml-[3%]'> </span>
+                      <span className='text-white  ml-[3%]'>Ground Floor</span>
                     </div>
                     {floor==='Ground Floor' &&
                     <>
