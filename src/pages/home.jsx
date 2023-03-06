@@ -146,7 +146,7 @@ if(floorClicked.length===0){
                               </div>
             
                               <div className='text-[#606060] flex flex-row justify-around items-center  relative space-x-8'>
-                                <h1 className='text-extraLarge font-poppins text-[#606060]'>01</h1>
+                                <h1 className='text-extraLarge font-poppins text-[#606060]'>02</h1>
                                 <div className='flex flex-col leading-4'>
                                   <div className='text-[#606060] text-small'>
                                       Shop From 12 Million PKR
@@ -158,7 +158,7 @@ if(floorClicked.length===0){
                               </div>
             
                               <div className='text-[#606060] flex flex-row justify-around items-center  relative space-x-8'>
-                                <h1 className='text-extraLarge font-poppins text-[#606060]'>01</h1>
+                                <h1 className='text-extraLarge font-poppins text-[#606060]'>03</h1>
                                 <div className='flex flex-col leading-4'>
                                   <div className='text-[#606060] text-small'>
                                       Shop From 12 Million PKR
@@ -170,7 +170,7 @@ if(floorClicked.length===0){
                               </div>
             
                               <div className='text-[#606060] flex flex-row justify-around items-center  relative space-x-8'>
-                                <h1 className='text-extraLarge font-poppins text-[#606060]'>01</h1>
+                                <h1 className='text-extraLarge font-poppins text-[#606060]'>04</h1>
                                 <div className='flex flex-col leading-4'>
                                   <div className='text-[#606060] text-small'>
                                       Shop From 12 Million PKR
