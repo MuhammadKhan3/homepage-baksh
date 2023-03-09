@@ -26,7 +26,7 @@ const FloorBottom = ({floorData,setfloorData,MfloorHandler, SecondfloorHandler, 
               <p className='text-floorText text-available'>3/4 Shops availabe</p>
             </div>
             <div className='flex flex-row items-start'>
-               <p className='text-baseBold desktop-23:text-[1.3rem] desktop-22:text-[1.4rem]'>PKR {floorData?.square} Per/sq. ft.</p>
+               <p className='text-baseBold desktop-23:text-[1.3rem] desktop-22:text-[1.4rem]'>PKR {floorData?.square?.toLocaleString()} Per/sq. ft.</p>
             </div>
           </div>
           {/* desktop-23:mt */}
@@ -42,7 +42,7 @@ const FloorBottom = ({floorData,setfloorData,MfloorHandler, SecondfloorHandler, 
           </div>
           
           <div className='flex flex-row items-center w-[70%] mb:w-[90%] sm:w-[90%] md:w-[90%]  relative  space-x-2 desktop-23:top-[35vh] desktop-22:top-[30vh] desktop-20:top-[15vh] xl:top-[20vh] lg-2:top-[10vh]'>
-             <span className='text-totalAmount  mb:text-[2rem] '>Rs {floorData?.totalPrice}</span>
+             <span className='text-totalAmount  mb:text-[2rem] '>Rs {floorData?.totalPrice?.toLocaleString()}</span>
              <span className='mt-5 text-[#8B6C69] desktop-22:text-[1.2rem]'>Total Value</span>
           </div>       
        </div>
