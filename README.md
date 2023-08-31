@@ -1,15 +1,5 @@
 <h1 align="center">Home Page Baksh 🏢</h1>
 
-<h5 align="center">In this project the home page and floor level and map the dynamic show the data</h5>
-
-<h4 align="center">Home Page</h4>
-
-![Capture](https://github.com/MuhammadKhan3/homepage-baksh/assets/79418503/f5fb6b9c-8e89-4e86-8183-6712b1d79b0e)
-
-<h4 align="center">Floor Page</h4>
-
-![Capture1](https://github.com/MuhammadKhan3/homepage-baksh/assets/79418503/9c1c78c5-dc46-48cb-b511-575259724f06)
-
-<h4 align="center">Floor Page</h4>
-
-![capture3](https://github.com/MuhammadKhan3/homepage-baksh/assets/79418503/5c99bdef-95f2-4a9d-a5e4-a8c4b48ae2c5)
+![Capture](https://github.com/MuhammadKhan3/homepage-baksh/assets/79418503/fd646959-62ba-42a5-82f8-20ec45916e87)
+![Capture1](https://github.com/MuhammadKhan3/homepage-baksh/assets/79418503/c1a265ee-5e63-4de6-b56b-a3fee20278cd)
+![capture3](https://github.com/MuhammadKhan3/homepage-baksh/assets/79418503/21dad8d1-3b5a-45e1-835c-a6d2f5342412)
